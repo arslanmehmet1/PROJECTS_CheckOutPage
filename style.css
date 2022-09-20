@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left i {
+  position: relative;
+  left: 1rem;
+  bottom: 2rem;
+}
+#canta {
+  border-radius: 10px;
+}
