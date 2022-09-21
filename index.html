@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="p-5">
+    <main class="p-5 m-auto">
       <head>
         <h1 class="text-center mb-5">Checkout</h1>
       </head>
@@ -110,20 +110,105 @@
                   <img src="./img/photo1.png" alt="backbag" id="canta" />
                 </div>
                 <div class="col d-flex flex-column justify-content-between">
-                  <div class="hesaplar">
+                  <div class="hesaplar text-start mt-5">
                     <h5>Vintage Backbag</h5>
-                    <p class="cantafiyat">$54.99<span>94.99</span></p>
+                    <p class="fs-3 text-warning">
+                      $54.99
+                      <span class="overline fs-5 text-black">$94.99</span>
+                    </p>
                   </div>
-                  <div class="miktar">
-                    <i class="fa-solid fa-minus"></i>1<i
-                      class="fa-solid fa-plus"
+                  <div
+                    class="miktar border border-dark rounded d-flex justify-content-between p-1 mb-5 align-content-center"
+                  >
+                    <i class="fa-solid fa-minus mt-1"></i>1<i
+                      class="fa-solid fa-plus mt-1"
                     ></i>
                   </div>
+                  <button type="button" class="btn btn-warning text-white w-50">
+                    remove
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item2">
+              <div class="row">
+                <div class="col text-end">
+                  <img src="./img/photo2.png" alt="shoes" id="ayakkabi" />
+                </div>
+                <div class="col d-flex flex-column justify-content-between">
+                  <div class="hesaplar text-start mt-5">
+                    <h5>Levi Shoes</h5>
+                    <p class="fs-3 text-warning">
+                      $74.99
+                      <span class="overline fs-5 text-black">$124.99</span>
+                    </p>
+                  </div>
+                  <div
+                    class="miktar border border-dark rounded d-flex justify-content-between p-1 mb-5 align-content-center"
+                  >
+                    <i class="fa-solid fa-minus mt-1"></i>1<i
+                      class="fa-solid fa-plus mt-1"
+                    ></i>
+                  </div>
+                  <button type="button" class="btn btn-warning text-white w-50">
+                    remove
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="item3">
+              <div class="row">
+                <div class="col text-end">
+                  <img src="./img/photo3.jpg" alt="shoes" id="saat" />
+                </div>
+                <div class="col d-flex flex-column justify-content-between">
+                  <div class="hesaplar text-start mt-5">
+                    <h5>Antique Clock</h5>
+                    <p class="fs-3 text-warning">
+                      $74.99
+                      <span class="overline fs-5 text-black">$94.99</span>
+                    </p>
+                  </div>
+                  <div
+                    class="miktar border border-dark rounded d-flex justify-content-between p-1 mb-5 align-content-center"
+                  >
+                    <i class="fa-solid fa-minus mt-1"></i>1<i
+                      class="fa-solid fa-plus mt-1"
+                    ></i>
+                  </div>
+                  <button type="button" class="btn btn-warning text-white w-50">
+                    remove
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="pay"></div>
+          <div class="pay mt-5 px-5 fs-5 fw-bolder">
+            <div
+              class="subtotal d-flex justify-content-between border-top border-secondary"
+            >
+              <p>Subtotal</p>
+              <p>$120.98</p>
+            </div>
+            <div
+              class="tax d-flex justify-content-between border-top border-secondary"
+            >
+              <p>Tax(18%)</p>
+              <p>$120.98</p>
+            </div>
+            <div
+              class="shipping d-flex justify-content-between border-top border-secondary"
+            >
+              <p>shipping</p>
+              <p>$120.98</p>
+            </div>
+            <div
+              class="total d-flex justify-content-between border-top border-secondary"
+            >
+              <p>total</p>
+              <p>$120.98</p>
+            </div>
+          </div>
         </div>
       </div>
       <footer class="text-center mt-5">

@@ -4,11 +4,48 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Mont;
+  src: url(./fonts/Montserrat-Regular.ttf);
+}
+body {
+  font-size: smaller;
+}
+
 .left i {
   position: relative;
   left: 1rem;
   bottom: 2rem;
 }
-#canta {
+#canta,
+#ayakkabi,
+#saat {
   border-radius: 10px;
+  width: 150px;
+  margin-top: 3rem;
+}
+
+main {
+  background-image: linear-gradient(
+    to right,
+    rgb(229, 223, 233),
+    rgb(174, 109, 204)
+  );
+  width: 60%;
+}
+
+.overline {
+  text-decoration: line-through;
+}
+.miktar {
+  width: 100px;
+}
+.item1,
+.item2,
+.item3 {
+  margin-bottom: -2rem;
+}
+button.w-50 {
+  margin-top: -2.5rem;
+  cursor: pointer;
 }
